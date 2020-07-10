@@ -1,0 +1,9 @@
+Here is the final outcome based on the Prediction Model 2 (Random Forest) applied against the Testing dataset
+
+# predict outcome levels on the original Testing data set using Random Forest algorithm
+predictfinal <- predict(model2, testingset, type="class")
+predictfinal
+
+##  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 
+##  B  A  B  A  A  E  D  B  A  A  B  C  B  A  E  E  A  B  B  B 
+## Levels: A B C D E
